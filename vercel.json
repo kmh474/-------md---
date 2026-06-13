@@ -1,0 +1,7 @@
+{
+  "buildCommand": "cd student-record-checker && npm install && npm run build",
+  "outputDirectory": "student-record-checker/dist",
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
+}
